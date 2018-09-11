@@ -1,0 +1,22 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    Scanner thiya=new Scanner (System.in);
+    System.out.println("Enter the first num");
+    int a=thiya.nextInt();
+    System.out.println("Enter the second num");
+    int b=thiya.nextInt();
+    System.out.println("Enter the third num");
+    int c=thiya.nextInt();
+    System.out.println("Enter the fourth num");
+    int d=thiya.nextInt();
+    System.out.println("Enter the fifth num");
+    int e=thiya.nextInt();
+    int f=a+b+c+d+e;
+    System.out.println(f);
+    int g=a-b-c-d-e;
+    System.out.println(g);
+    int h=a*b*c*d*e;
+    System.out.println(h);
+  }
+}
