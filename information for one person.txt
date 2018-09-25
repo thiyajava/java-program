@@ -1,0 +1,18 @@
+class Main {
+  public static void main(String[] args) {
+    String name = "santhiya";
+    String city = "Nagercoil";
+    byte age = 21;
+    float height = 5.3f;
+    boolean married = false;
+    char sex = 'f';
+    double population = 145367;
+    System.out.println("Name:"+name);
+    System.out.println("City:"+city);
+    System.out.println("Age:"+age);
+    System.out.println("Height:"+height);
+    System.out.println("Married:"+married);
+    System.out.println("Sex:"+sex);
+    System.out.println("Population:"+population);
+    }
+}
